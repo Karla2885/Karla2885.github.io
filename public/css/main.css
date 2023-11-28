@@ -1,0 +1,186 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Onest', sans-serif;
+}
+
+/*Estilos del Nav de Bootstrap*/
+.navbar{
+    background: #8AC3B8 !important; /*Color del Nav*/
+}
+
+.nav-link{
+    color: #fff !important; /*Color del texto dentro de Nav*/
+}
+
+.navbar-toggler:focus { 
+    box-shadow: none !important; /*Sombra del contorno del icono del menu, al hacer click*/
+}
+/*Fin Estilos del Nav de Bootstrap*/
+
+
+/*Estilos para todas las Secciones*/
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__title {
+    width: 100%;
+    color:rgb(172, 16, 177);
+    text-align: center;
+    margin-top: 1.5em;
+}
+img {
+    width: 100%;
+
+}
+
+/*Seccion Inicio*/
+.sectionBanner{
+    width: auto;
+    height: auto;
+}
+/*Fin Seccion Inicio*/
+
+
+/*Seccion Nosotros*/
+.sectionAbout {
+    background-color: beige;
+    color: violet;
+    width: 100%;
+    height: auto;
+}
+.section__text {
+    text-align: justify;
+    width: 80%;
+    font-weight: 600;
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+/*Fin Seccion Nosotros*/
+
+
+/*Seccion Galeria*/
+.sectionGallery{
+    background-color: bisque;
+    justify-content: space-around;
+    padding: 2em 5em;
+}
+.sectionTitleGalery{
+    margin-bottom: 1.5em;
+}
+a{
+    text-decoration: none !important; /*Titulo de cada FOTO de la SECCION GALERIA*/
+}
+.gallery__photo {
+    width: 30%;
+}
+p{ /*estilos de los titulos  SECCION GALERIA*/
+    text-align: center; 
+    color: violet;
+    padding-top: 1em;
+}
+/*Fin Seccion Galeria*/
+
+/*Seccion Contacto*/
+.section__Contacto{
+    background-color:beige;
+    color: violet;
+    width: 100%;
+    height: auto;
+    
+}
+.contact_form{
+    width: 80%;
+
+}
+
+.form-label{
+    color: violet;
+    font-weight: bold;
+}
+
+.contact_form button{
+    width: 100%;
+    background-color: bisque;
+    color:rgb(172, 16, 177);
+    font-weight: bold;
+    border-color: skyblue;
+}
+/*Fin Seccion Contacto*/
+
+
+/*Footer*/
+footer {
+    background-color: #8AC3B8;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+footer span {
+    width: 90%;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*Estilos Celular*/
+@media screen and (max-width: 575px) {
+
+    /*Titulos de todas las Secciones*/
+    .section__title {
+        margin-top: 1.7em;
+    }
+
+    /*Seccion Nosotros*/
+    .section__text {
+        width: 70%;
+        margin-bottom: 4em;
+        padding-top: 1em;
+    }
+
+    /*Seccion Galeria*/
+    .sectionGallery{
+        display: flex;
+        flex-direction: column;
+        padding: 2em 1em;
+    }
+    a{
+        text-decoration: none !important; /*Titulo de cada FOTO de la SECCION GALERIA*/
+    }
+    .gallery__photo { /*Estilos de las fotos*/
+        width: 80%;
+    }
+    p{ /*estilos de los titulos en las fotos*/
+        text-align: center; 
+        color: violet;
+        padding-top: .8em;
+        padding-bottom: 1.5em;
+        font-size: 16px;
+    }
+    /*Fin Seccion Galeria*/
+
+    
+
+}
+
+
+
+
+
+ 
+
+
+
